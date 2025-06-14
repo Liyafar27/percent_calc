@@ -97,7 +97,7 @@ All tests are located in the test/ directory.
 
 ```bash
 git clone https://github.com/Liyafar27/percent_calc.git
-cd dog-journal
+cd percent_calc
 flutter pub get
 flutter run
 ```
