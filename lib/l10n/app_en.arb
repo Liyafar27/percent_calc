@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "app_title": "Percent Calculator",
+  "value_label": "Value (e.g. 2000)",
+  "percent_label": "Percent (e.g. 115%)",
+  "calculate": "Calculate",
+  "reset": "Reset",
+  "result_label": "Result (100%) = {value}",
+  "required_field": "Required",
+  "must_be_positive": "Must be > 0",
+  "hide_history": "Hide history",
+  "show_history": "Show history"
+
+}

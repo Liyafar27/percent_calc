@@ -1,0 +1,14 @@
+{
+  "@@locale": "ru",
+  "app_title": "Калькулятор процентов",
+  "value_label": "Значение (например, 2000)",
+  "percent_label": "Процент (например, 115%)",
+  "calculate": "Рассчитать",
+  "reset": "Сбросить",
+  "result_label": "Результат (100%) = {value}",
+  "required_field": "Обязательно",
+  "must_be_positive": "Должно быть > 0",
+  "hide_history": "Скрыть историю",
+  "show_history": "Показать историю"
+
+}
