@@ -50,6 +50,49 @@ The choice of `flutter_bloc` was made based on the following rationale:
 </p>
 ---
 
+## 🧪 Testing
+
+We wrote comprehensive tests to ensure the reliability of our app, covering business logic, UI rendering, and utility functions.
+
+---
+
+### ✅ Types of Tests
+
+| Type           | Purpose                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| **Unit Tests**   | Verify pure functions like percentage calculation with edge cases       |
+| **Bloc Tests**   | Test BLoC behavior: calculations, errors, and state resets              |
+| **Widget Tests** | Ensure the UI builds correctly with mocked dependencies (e.g. Hive)     |
+
+---
+
+### 📌 Unit Test Example
+
+We test `calculatePercent()` to ensure it:
+
+- ✅ Computes percentage correctly  
+- ❌ Throws errors on invalid input (zero or negative values)  
+- 💯 Handles decimal numbers precisely
+
+```dart
+test('correctly calculates 25% of 10 to 100%', () {
+  final result = calculatePercent(10, 25);
+  expect(result, closeTo(40.0, 0.001));
+});
+```
+### 📌 How to Run Tests
+To run all tests, simply use:
+```dart
+flutter test
+```
+Make sure all dependencies are installed first:
+```dart
+flutter pub get
+```
+
+All tests are located in the test/ directory.
+
+
 ## 🚀 Getting Started
 
 ```bash
@@ -57,4 +100,5 @@ git clone https://github.com/Liyafar27/percent_calc.git
 cd dog-journal
 flutter pub get
 flutter run
-    
+```
+
