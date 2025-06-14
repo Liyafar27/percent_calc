@@ -19,7 +19,7 @@
 
 - **Flutter** – UI framework
 - **flutter_bloc** – state management
-- **SharedPreferences** – local storage
+- **Hive** – local storage
 - **intl / flutter_localizations** – i18n support
 - **flutter_gen** – localization code generation
 
